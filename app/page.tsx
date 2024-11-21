@@ -1,4 +1,5 @@
 import Button from "@/components/common/Button";
+import Experience from "@/components/Experience/Experience";
 import { Hero } from "@/components/Hero/Hero";
 import SkillsAndTechStack from "@/components/TechAndStack/SkillsAndTechStack";
 import Image from "next/image";
@@ -11,6 +12,7 @@ export default function Home() {
     </div>
     <Hero />
     <SkillsAndTechStack />
+    <Experience />
   </div>  
   );
 }

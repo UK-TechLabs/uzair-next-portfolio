@@ -41,3 +41,38 @@ export const clientSideSkills = [
     { name: 'Azure', value: 3, icon: 'azure-plain' },
     { name: 'Netlify', value: 3, icon: 'netlify-plain' },
   ];
+
+  const workIcon = {
+    iconStyle: { background: '#15803D', color: '#fff' },
+};
+
+  export const timeline = [
+    {
+        icon: workIcon,
+        date: 'Nov 2023 - present',
+        title: 'Senior Software Engineer',
+        subtitle: 'Gubloo Tech Islamabad, PAK',
+        desc: 'Leading the development of innovative software solutions using modern technologies. Overseeing project planning, system architecture, and team collaboration to deliver high-quality web applications. Specializing in full-stack development, code optimization, and ensuring efficient project delivery within deadlines.',
+    },
+    {
+        icon: workIcon,
+        date: 'Dec 2022 - Nov 2023',
+        title: 'MERN Stack Developer',
+        subtitle: 'Samsoft Technologies Islamabad, PAK',
+        desc: 'Focused on full-stack development of dynamic web applications using MERN stack. Led multiple projects, including e-commerce platforms and internal office systems, ensuring seamless integration with third-party services like UPS and Stripe. Proficient in Next.js, Nest.js, Prisma, and other modern web technologies for building scalable solutions.',
+    },
+    {
+        icon: workIcon,
+        date: 'Sep 2022 - Dec 2022',
+        title: 'Junior Angular Developer',
+        subtitle: 'Softosol Islamabad, PAK',
+        desc: 'Contributed to the development of web applications using AngularJS. Collaborated on building interactive user interfaces, integrating API endpoints, and enhancing client-side data processing. Gained hands-on experience with Angular Material and NgBootstrap for building modern, responsive front-end solutions.',
+    },
+    {
+        icon: workIcon,
+        date: 'Jan 2021 - present',
+        title: 'Freelance Full-Stack Developer',
+        subtitle: 'Islamabad, PAK',
+        desc: 'Developed and maintained various full-stack web applications for clients using the MERN stack. Collaborated with clients to define requirements and deliver customized solutions, focusing on user experience, visual design, and efficient backend development.',
+    },
+];
