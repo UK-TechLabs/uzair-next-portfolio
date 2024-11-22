@@ -5,7 +5,6 @@ import { Hero } from "@/components/Hero/Hero";
 import Projects from "@/components/Projects/Projects";
 import Reviews from "@/components/Reviews/Reviews";
 import SkillsAndTechStack from "@/components/TechAndStack/SkillsAndTechStack";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -17,7 +16,7 @@ export default function Home() {
     <SkillsAndTechStack />
     <Experience />
     <Projects />
-    <Reviews />
+    {/* <Reviews /> */}
     <ContactUs />
   </div>  
   );
