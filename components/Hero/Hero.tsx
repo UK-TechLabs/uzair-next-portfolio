@@ -18,9 +18,9 @@ export const Hero = () => {
             <p className="mt-4 text-justify">I am a seasoned Full Stack Developer with over 3 years of hands-on experience in crafting dynamic and responsive web applications. I excel in building and integrating complex systems, designing scalable architectures, and deploying solutions on cloud platforms. Throughout my career, I have worked on multiple projects from conception to deployment, ensuring high performance, security, and user satisfaction. I have a proven track record of improving application performance and optimizing code to enhance efficiency. I am known for my strong problem-solving skills, meticulous attention to detail, and a passion for continuous learning.</p>
         </div>
         <div className='flex flex-col justify-start md:justify-end items-start md:items-end gap-4 py-5'>
-          <HeroCard heading="3" description="Years of Experience"/>
-          <HeroCard heading="7+" description="Projects Completed"/>
-          <HeroCard heading="4+" description="Satisfied Clients"/>
+          <HeroCard heading="3+" description="Years of Experience"/>
+          <HeroCard heading="8+" description="Projects Completed"/>
+          <HeroCard heading="5+" description="Satisfied Clients"/>
           </div>
     </div>
   )

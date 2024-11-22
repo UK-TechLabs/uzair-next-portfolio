@@ -1,3 +1,11 @@
+import rockdaleReaths from '../public/rockdale_wreaths.png'
+import deeplawn from '../public/deeplawn.png'
+import servicecart from '../public/servicecart.png'
+import threatdefence from '../public/threat_defence.png'
+import volt from '../public/volt.png'
+import scintillant_ventures from '../public/scintillant_ventures.png'
+import qubitx from '../public/qubitx.png'
+
 export const clientSideSkills = [
     { name: 'Javascript', value: 4, icon: 'javascript-plain' },
     { name: 'Typescript', value: 4, icon: 'typescript-plain' },
@@ -75,4 +83,37 @@ export const clientSideSkills = [
         subtitle: 'Islamabad, PAK',
         desc: 'Developed and maintained various full-stack web applications for clients using the MERN stack. Collaborated with clients to define requirements and deliver customized solutions, focusing on user experience, visual design, and efficient backend development.',
     },
+];
+
+export const reviews = [
+  {
+    review: "Uzair did an exceptional job bringing Rockdale Wreaths to life from scratch. His professionalism, attention to detail, and timely delivery exceeded my expectations. I couldn’t have asked for a better developer to work with!",
+    name: "Michael Kelley",
+    company: "Rockdale Wreaths Inc.",
+  },
+  {
+    review: "Uzair played a pivotal role in developing Threat Defence from scratch. His expertise and commitment to quality were evident throughout the project, and the final product exceeded all expectations. Highly recommend his work!",
+    name: "Anton Guzhevskiy",
+    company: "ThreatDefence.",
+  },
+  {
+    review: "Uzair’s work on Deep Lawn was outstanding. From start to finish, he showed exceptional skill and dedication, delivering a top-quality product. It was a pleasure working with him!",
+    name: "Joel Northrup",
+    company: "Deep Lawn.",
+  },
+  {
+    review: "Uzair did an excellent job developing the admin dashboard for Scintillant Ventures. His work was efficient, well-organized, and exactly what we needed to streamline operations. Highly recommend his services!",
+    name: "Ron Ejercito",
+    company: "Scintillant Ventures.",
+  },
+];
+
+export const projectData = [
+  { id: 1, name: "Rockdale Wreaths", image: rockdaleReaths, url:"https://www.rockdalewreaths.com/" },
+  { id: 2, name: "Threat Defence", image: threatdefence, url:"https://threatdefence.com/" },
+  { id: 3, name: "Deep Lawn", image: deeplawn, hrl:"https://deeplawn.com/" },
+  { id: 4, name: "Service Cart", image: servicecart, url:"https://servicecart.io/" },
+  { id: 6, name: "Volt", image: volt, url:"https://volt-mu.vercel.app/" },
+  { id: 7, name: "Scintillant Ventures", image: scintillant_ventures, url:"https://www.scintillantventures.com/"},
+  { id: 8, name: "Qubit", image: qubitx, url:"https://qubitx.io/"}
 ];
