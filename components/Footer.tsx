@@ -8,10 +8,10 @@ import { RiContactsFill } from "react-icons/ri";
 const Footer = () => {
   return (
     <div className="flex sticky bottom-0 justify-center items-center w-full min-h-16 bg-primary">
-      <div className="flex items-center flex-wrap justify-center space-x-6 w-full">
+      <div className="flex items-center flex-wrap justify-center gap-x-6 w-full">
         <a
           href="#about"
-          className="text-lg cursor-pointer h-16 flex items-center justify-center relative group px-4 hover:bg-gray-700"
+          className="text-lg cursor-pointer h-16 flex items-center justify-center relative group"
         >
           <RiContactsFill />
           <span className="absolute bottom-full mb-2 w-max p-1 bg-gray-700 text-white text-xs rounded hidden group-hover:block">
@@ -20,7 +20,7 @@ const Footer = () => {
         </a>
         <a
           href="#stack"
-          className="text-lg cursor-pointer h-16 flex items-center justify-center relative group px-4 hover:bg-gray-700"
+          className="text-lg cursor-pointer h-16 flex items-center justify-center relative group"
         >
           <GrTechnology />
           <span className="absolute bottom-full mb-2 w-max p-1 bg-gray-700 text-white text-xs rounded hidden group-hover:block">
@@ -29,7 +29,7 @@ const Footer = () => {
         </a>
         <a
           href="#experience"
-          className="text-lg cursor-pointer h-16 flex items-center justify-center relative group px-4 hover:bg-gray-700"
+          className="text-lg cursor-pointer h-16 flex items-center justify-center relative group"
         >
           <HiBriefcase />
           <span className="absolute bottom-full mb-2 w-max p-1 bg-gray-700 text-white text-xs rounded hidden group-hover:block">
@@ -38,7 +38,7 @@ const Footer = () => {
         </a>
         <a
           href="#projects"
-          className="text-lg cursor-pointer h-16 flex items-center justify-center relative group px-4 hover:bg-gray-700"
+          className="text-lg cursor-pointer h-16 flex items-center justify-center relative group"
         >
           <GoProjectSymlink />
           <span className="absolute bottom-full mb-2 w-max p-1 bg-gray-700 text-white text-xs rounded hidden group-hover:block">
@@ -47,7 +47,7 @@ const Footer = () => {
         </a>
         <a
           href="#reviews"
-          className="text-lg cursor-pointer h-16 flex items-center justify-center relative group px-4 hover:bg-gray-700"
+          className="text-lg cursor-pointer h-16 flex items-center justify-center relative group"
         >
           <MdReviews />
           <span className="absolute bottom-full mb-2 w-max p-1 bg-gray-700 text-white text-xs rounded hidden group-hover:block">
@@ -56,7 +56,7 @@ const Footer = () => {
         </a>
         <a
           href="#contact"
-          className="text-lg cursor-pointer h-16 flex items-center justify-center relative group px-4 hover:bg-gray-700"
+          className="text-lg cursor-pointer h-16 flex items-center justify-center relative group"
         >
           <MdOutlineContacts />
           <span className="absolute bottom-full mb-2 w-max p-1 bg-gray-700 text-white text-xs rounded hidden group-hover:block">
