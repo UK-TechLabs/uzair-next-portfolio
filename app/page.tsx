@@ -9,14 +9,11 @@ import SkillsAndTechStack from "@/components/TechAndStack/SkillsAndTechStack";
 export default function Home() {
   return (
   <div>
-    <div className="flex py-3 justify-end">
-    <Button title={"Download Resume"} type={"button"} width={"w-42"} handleClick={() => {}} />
-    </div>
     <Hero />
     <SkillsAndTechStack />
     <Experience />
     <Projects />
-    {/* <Reviews /> */}
+    <Reviews />
     <ContactUs />
   </div>  
   );
