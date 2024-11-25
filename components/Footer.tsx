@@ -7,8 +7,8 @@ import { RiContactsFill } from "react-icons/ri";
 
 const Footer = () => {
   return (
-    <div className="flex sticky bottom-0 justify-center items-center w-full min-h-16 bg-primary">
-      <div className="flex items-center flex-wrap justify-center gap-x-6 w-full">
+    <div className="flex sticky bottom-0 justify-center items-center w-full min-h-16 bg-primary z-50">
+      <div className="flex items-center flex-wrap justify-center gap-x-6 md:gap-x-10 w-full">
         <a
           href="#about"
           className="text-lg cursor-pointer h-16 flex items-center justify-center relative group"
