@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import 'devicon/devicon.min.css';
+import "devicon/devicon.min.css";
+import Footer from "@/components/Footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -29,9 +30,8 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="max-w-[1100px] px-5 mx-auto">
-        {children}
-        </div>
+        <div className="max-w-[1100px] px-5 mx-auto">{children}</div>
+        <Footer />
       </body>
     </html>
   );

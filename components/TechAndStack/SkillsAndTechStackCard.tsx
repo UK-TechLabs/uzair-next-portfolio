@@ -1,6 +1,7 @@
+import { SkillsAndTechStackCardI } from '@/interfaces/SkillsAndTechStack.interface';
 import React from 'react'
 
-const SkillsAndTechStackCard = ({ value }: {value: number}) => {
+const SkillsAndTechStackCard = ({ value }: SkillsAndTechStackCardI) => {
 
       const clipValue = `${100 - value * 20}%`;
       return (

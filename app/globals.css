@@ -33,3 +33,7 @@ body {
   transform: translateY(20px);
   transition: opacity .5s ease-in-out,transform .5s ease-in-out;
 }
+
+html {
+  scroll-behavior: smooth;
+}

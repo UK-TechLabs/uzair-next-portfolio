@@ -8,13 +8,13 @@ import SkillsAndTechStack from "@/components/TechAndStack/SkillsAndTechStack";
 
 export default function Home() {
   return (
-  <div>
-    <Hero />
-    <SkillsAndTechStack />
-    <Experience />
-    <Projects />
-    <Reviews />
-    <ContactUs />
-  </div>  
+    <div>
+      <Hero />
+      <SkillsAndTechStack />
+      <Experience />
+      <Projects />
+      <Reviews />
+      <ContactUs />
+    </div>
   );
 }

@@ -3,7 +3,6 @@ import React from "react";
 import TypingEffect from "./TypingEffect";
 import HeroCard from "./HeroCard";
 import Button from "../common/Button";
-// import resume from ''
 
 export const Hero = () => {
   const handleResumeDownload = () => {
@@ -15,7 +14,7 @@ export const Hero = () => {
   };
   return (
     <>
-      <div className="flex py-3 justify-end">
+      <div id="about" className="flex py-3 justify-end">
         <Button
           handleClick={handleResumeDownload}
           title={"Download Resume"}

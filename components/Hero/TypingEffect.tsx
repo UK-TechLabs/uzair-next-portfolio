@@ -1,8 +1,13 @@
-'use client'
+"use client";
 import React, { useState, useEffect } from "react";
 
 const TypingEffect = () => {
-  const strings = ["Full Stack Developer!", "Next.js Developer!", "MERN Stack Developer!", "MEAN Stack Developer!"];
+  const strings = [
+    "Full Stack Developer!",
+    "Next.js Developer!",
+    "MERN Stack Developer!",
+    "MEAN Stack Developer!",
+  ];
   const [currentText, setCurrentText] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -17,7 +22,6 @@ const TypingEffect = () => {
         setCurrentText((prev) => currentString.slice(0, prev.length + 1));
       }
 
-      // Adjust speed
       if (!isDeleting && currentText === currentString) {
         setTimeout(() => setIsDeleting(true), 1000);
         return;
@@ -35,12 +39,10 @@ const TypingEffect = () => {
   }, [currentText, isDeleting, currentIndex, strings, speed]);
 
   return (
-    // <div className="text-center mt-10">
-      <div className="text-3xl font-bold mb-2">
-        {currentText}
-        <span className="border-r-2 border-gray-800 animate-blink ml-1"></span>
-      </div>
-    // </div>
+    <div className="text-3xl font-bold mb-2">
+      {currentText}
+      <span className="border-r-2 border-gray-800 animate-blink ml-1"></span>
+    </div>
   );
 };
 

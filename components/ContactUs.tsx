@@ -65,7 +65,7 @@ const ContactUs: React.FC = () => {
   };
 
   return (
-    <div className="my-8 relative md:my-32">
+    <div id="contact" className="my-8 relative md:my-32">
       <p className="text-4xl font-bold text-center text-green-700 mb-4">
         Want to hire me?
       </p>

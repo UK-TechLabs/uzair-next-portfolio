@@ -8,3 +8,7 @@ export interface SkillsAndTechStackSecI {
     heading: string;
     elements: SkillsAndStackI[]
 }
+
+export interface SkillsAndTechStackCardI {
+    value: number
+}

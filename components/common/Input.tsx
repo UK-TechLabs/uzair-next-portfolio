@@ -1,16 +1,7 @@
+import { InputI } from "@/interfaces/common.interface";
 import React from "react";
-import { UseFormRegisterReturn } from "react-hook-form";
 
-type InputProps = {
-  label?: string;
-  name: string;
-  type: string;
-  placeholder?: string;
-  register: UseFormRegisterReturn;
-  error?: string;
-};
-
-const Input: React.FC<InputProps> = ({
+const Input: React.FC<InputI> = ({
   label,
   name,
   type,
@@ -20,7 +11,11 @@ const Input: React.FC<InputProps> = ({
 }) => {
   return (
     <div className="mb-4">
-      {label && <label htmlFor={name} className="block mb-1 text-sm">{label}</label>}
+      {label && (
+        <label htmlFor={name} className="block mb-1 text-sm">
+          {label}
+        </label>
+      )}
       <input
         id={name}
         type={type}

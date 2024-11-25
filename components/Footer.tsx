@@ -1,15 +1,71 @@
-import React from 'react'
+import React from "react";
+import { GoProjectSymlink } from "react-icons/go";
+import { GrTechnology } from "react-icons/gr";
+import { HiBriefcase } from "react-icons/hi";
+import { MdOutlineContacts, MdReviews } from "react-icons/md";
+import { RiContactsFill } from "react-icons/ri";
 
 const Footer = () => {
   return (
-    <div className='flex justify-center items-center w-full h-16 bg-primary'>
-        <div className='flex justify-center space-x-6 w-full'>
-        <div className="text-lg cursor-pointer h-16 flex items-center justify-center relative group px-4 hover:bg-gray-700">
-            <i className="light-icon-user font-extrabold nav-icons"></i>
-            <span className="absolute bottom-full mb-2 w-max p-1 bg-gray-700 text-white text-xs rounded hidden group-hover:block">About</span></div>
-        </div>
+    <div className="flex sticky bottom-0 justify-center items-center w-full min-h-16 bg-primary">
+      <div className="flex items-center flex-wrap justify-center space-x-6 w-full">
+        <a
+          href="#about"
+          className="text-lg cursor-pointer h-16 flex items-center justify-center relative group px-4 hover:bg-gray-700"
+        >
+          <RiContactsFill />
+          <span className="absolute bottom-full mb-2 w-max p-1 bg-gray-700 text-white text-xs rounded hidden group-hover:block">
+            About
+          </span>
+        </a>
+        <a
+          href="#stack"
+          className="text-lg cursor-pointer h-16 flex items-center justify-center relative group px-4 hover:bg-gray-700"
+        >
+          <GrTechnology />
+          <span className="absolute bottom-full mb-2 w-max p-1 bg-gray-700 text-white text-xs rounded hidden group-hover:block">
+            Tech Stack
+          </span>
+        </a>
+        <a
+          href="#experience"
+          className="text-lg cursor-pointer h-16 flex items-center justify-center relative group px-4 hover:bg-gray-700"
+        >
+          <HiBriefcase />
+          <span className="absolute bottom-full mb-2 w-max p-1 bg-gray-700 text-white text-xs rounded hidden group-hover:block">
+            Experience
+          </span>
+        </a>
+        <a
+          href="#projects"
+          className="text-lg cursor-pointer h-16 flex items-center justify-center relative group px-4 hover:bg-gray-700"
+        >
+          <GoProjectSymlink />
+          <span className="absolute bottom-full mb-2 w-max p-1 bg-gray-700 text-white text-xs rounded hidden group-hover:block">
+            Projects
+          </span>
+        </a>
+        <a
+          href="#reviews"
+          className="text-lg cursor-pointer h-16 flex items-center justify-center relative group px-4 hover:bg-gray-700"
+        >
+          <MdReviews />
+          <span className="absolute bottom-full mb-2 w-max p-1 bg-gray-700 text-white text-xs rounded hidden group-hover:block">
+            Reviews
+          </span>
+        </a>
+        <a
+          href="#contact"
+          className="text-lg cursor-pointer h-16 flex items-center justify-center relative group px-4 hover:bg-gray-700"
+        >
+          <MdOutlineContacts />
+          <span className="absolute bottom-full mb-2 w-max p-1 bg-gray-700 text-white text-xs rounded hidden group-hover:block">
+            Contact
+          </span>
+        </a>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

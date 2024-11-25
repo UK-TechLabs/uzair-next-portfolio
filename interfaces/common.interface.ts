@@ -1,3 +1,5 @@
+import { UseFormRegisterReturn } from "react-hook-form";
+
 export interface ButtonI {
     title: string;
     type: 'button' | 'submit';
@@ -11,9 +13,7 @@ export interface InputI {
     label?: string;
     name: string;
     type: string;
-    placeholder: string;
-    value: string;
-    onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
-    onBlur: (e: React.FocusEvent<HTMLInputElement>) => void;
+    placeholder?: string;
+    register: UseFormRegisterReturn;
     error?: string;
   }
