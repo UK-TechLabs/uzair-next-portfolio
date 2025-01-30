@@ -1,9 +1,9 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import { useForm, SubmitHandler } from "react-hook-form";
 import { BiLogoGmail } from "react-icons/bi";
 import { FaLocationArrow } from "react-icons/fa";
-import { FiPhoneCall } from "react-icons/fi";
+import { FaWhatsapp } from "react-icons/fa";
 import Button from "./common/Button";
 import Input from "./common/Input";
 import { contactUsFormValuesI } from "@/interfaces/contact";
@@ -36,13 +36,12 @@ const ContactUs: React.FC = () => {
       const result = await response.json();
 
       if (response.ok) {
-        
         setAlert({
           message: "Your message has been sent successfully!",
           type: "success",
           visible: true,
         });
-        reset()
+        reset();
       } else {
         setAlert({
           message: result.error || "Something went wrong",
@@ -83,11 +82,23 @@ const ContactUs: React.FC = () => {
           <div className="flex flex-col lg:flex-row gap-8">
             <div className="flex gap-x-2 items-center flex-1 justify-center p-4 rounded-lg card-shadow">
               <FaLocationArrow className="h-5 w-5" />
-              <p className="text-xl flex align-center">Islamabad Pakistan</p>
+              <p className="text-xl flex align-center">Riyadh KSA🇸🇦</p>
             </div>
-            <div className="flex gap-x-2 items-center flex-1 justify-center p-4 rounded-lg card-shadow">
+            {/* this code is for sim call, when i reach to KSA i will uncomment it. */}
+            {/* <div className="flex gap-x-2 items-center flex-1 justify-center p-4 rounded-lg card-shadow">
               <FiPhoneCall className="h-5 w-5" />
               <a href="tel:+923118889481" className="text-xl flex align-center">
+                +92 (311) 888 9481
+              </a>
+            </div> */}
+            <div className="flex gap-x-2 items-center flex-1 justify-center p-4 rounded-lg card-shadow">
+              <FaWhatsapp className="h-5 w-5" />
+              <a
+                href="https://api.whatsapp.com/send?phone=923118889481"
+                className="text-xl flex align-center"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 +92 (311) 888 9481
               </a>
             </div>
@@ -116,7 +127,8 @@ const ContactUs: React.FC = () => {
                 required: "Phone is required",
                 pattern: {
                   value: /^\+?[0-9]*$/,
-                  message: "Phone must contain only numbers and optionally a '+' sign",
+                  message:
+                    "Phone must contain only numbers and optionally a '+' sign",
                 },
               })}
               error={errors.phone?.message}
@@ -150,21 +162,23 @@ const ContactUs: React.FC = () => {
                 }`}
               />
               {errors.message && (
-                <p className="text-red-500 text-sm mt-1">{errors.message.message}</p>
+                <p className="text-red-500 text-sm mt-1">
+                  {errors.message.message}
+                </p>
               )}
             </div>
             {alert.visible && (
-        <div
-          className={`p-4 text-sm font-bold rounded-lg shadow-md ${
-            alert.type === "success"
-              ? "bg-green-200 text-primary"
-              : "bg-red-200 text-red-800"
-          }`}
-          role="alert"
-        >
-          {alert.message}
-        </div>
-      )}
+              <div
+                className={`p-4 text-sm font-bold rounded-lg shadow-md ${
+                  alert.type === "success"
+                    ? "bg-green-200 text-primary"
+                    : "bg-red-200 text-red-800"
+                }`}
+                role="alert"
+              >
+                {alert.message}
+              </div>
+            )}
             <Button title="Submit" type="submit" isLoading={loading} />
           </form>
         </div>
