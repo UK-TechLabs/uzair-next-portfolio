@@ -7,6 +7,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import Button from "./common/Button";
 import Input from "./common/Input";
 import { contactUsFormValuesI } from "@/interfaces/contact";
+import { FiPhoneCall } from "react-icons/fi";
 
 const ContactUs: React.FC = () => {
   const {
@@ -84,14 +85,14 @@ const ContactUs: React.FC = () => {
               <FaLocationArrow className="h-5 w-5" />
               <p className="text-xl flex align-center">Riyadh KSA🇸🇦</p>
             </div>
-            {/* this code is for sim call, when i reach to KSA i will uncomment it. */}
-            {/* <div className="flex gap-x-2 items-center flex-1 justify-center p-4 rounded-lg card-shadow">
-              <FiPhoneCall className="h-5 w-5" />
-              <a href="tel:+923118889481" className="text-xl flex align-center">
-                +92 (311) 888 9481
-              </a>
-            </div> */}
             <div className="flex gap-x-2 items-center flex-1 justify-center p-4 rounded-lg card-shadow">
+              <FiPhoneCall className="h-5 w-5" />
+              <a href="tel:+966502924895" className="text-xl flex align-center">
+                +966 (50) 292 4895
+              </a>
+            </div>
+            {/* This below code is for whatsapp */}
+            {/* <div className="flex gap-x-2 items-center flex-1 justify-center p-4 rounded-lg card-shadow">
               <FaWhatsapp className="h-5 w-5" />
               <a
                 href="https://api.whatsapp.com/send?phone=923118889481"
@@ -101,7 +102,7 @@ const ContactUs: React.FC = () => {
               >
                 +92 (311) 888 9481
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="lg:w-1/2">
