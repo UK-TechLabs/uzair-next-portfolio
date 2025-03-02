@@ -30,7 +30,7 @@ export const Hero = () => {
           </p>
           <TypingEffect />
           <p className="mt-4 text-justify">
-            I am a seasoned Full Stack Developer with over 3 years of hands-on
+            I am a seasoned Full Stack Developer with over 5 years of hands-on
             experience in crafting dynamic and responsive web applications. I
             excel in building and integrating complex systems, designing
             scalable architectures, and deploying solutions on cloud platforms.
@@ -43,7 +43,7 @@ export const Hero = () => {
           </p>
         </div>
         <div className="flex flex-col justify-start md:justify-end items-start md:items-end gap-4 py-5">
-          <HeroCard heading="3+" description="Years of Experience" />
+          <HeroCard heading="5+" description="Years of Experience" />
           <HeroCard heading="8+" description="Projects Completed" />
           <HeroCard heading="5+" description="Satisfied Clients" />
         </div>
