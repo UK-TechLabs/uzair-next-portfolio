@@ -111,7 +111,7 @@ export const reviews = [
 export const projectData = [
   { id: 1, name: "Rockdale Wreaths", image: rockdaleReaths, url:"https://www.rockdalewreaths.com/" },
   { id: 2, name: "Threat Defence", image: threatdefence, url:"https://threatdefence.com/" },
-  { id: 3, name: "Deep Lawn", image: deeplawn, hrl:"https://deeplawn.com/" },
+  { id: 3, name: "Deep Lawn", image: deeplawn, url:"https://deeplawn.com/" },
   { id: 4, name: "Service Cart", image: servicecart, url:"https://servicecart.io/" },
   { id: 6, name: "Volt", image: volt, url:"https://volt-mu.vercel.app/" },
   { id: 7, name: "Scintillant Ventures", image: scintillant_ventures, url:"https://www.scintillantventures.com/"},
