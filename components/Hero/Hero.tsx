@@ -26,25 +26,26 @@ export const Hero = () => {
         <div>
           <p className="text-6xl font-bold mb-2">Hello,</p>
           <p className="text-5xl font-semibold mb-4 text-primary">
-            I'm Uzair Khan;
+            I'm Muhammad Uzair;
           </p>
           <TypingEffect />
           <p className="mt-4 text-justify">
-            I am a seasoned Full Stack Developer with over 5 years of hands-on
-            experience in crafting dynamic and responsive web applications. I
-            excel in building and integrating complex systems, designing
-            scalable architectures, and deploying solutions on cloud platforms.
-            Throughout my career, I have worked on multiple projects from
-            conception to deployment, ensuring high performance, security, and
-            user satisfaction. I have a proven track record of improving
-            application performance and optimizing code to enhance efficiency. I
-            am known for my strong problem-solving skills, meticulous attention
-            to detail, and a passion for continuous learning.
+            Seasoned Full Stack Developer with 4+ years of experience building
+            and deploying 10+ dynamic web applications, specializing in
+            end-to-end development, scalable architecture, and cloud solutions.
+            Proficient in modern frontend and backend technologies, I excel at
+            optimizing performance, security, and user experience while solving
+            complex technical challenges. Passionate about continuous learning,
+            I am currently expanding my expertise in Laravel, PHP, DevOps
+            (CI/CD, Kubernetes, Jenkins), and cloud-native technologies to
+            enhance automation and system resilience. Known for meticulous
+            problem-solving and a results-driven approach, I thrive in
+            delivering high-impact, full-stack solutions.
           </p>
         </div>
         <div className="flex flex-col justify-start md:justify-end items-start md:items-end gap-4 py-5">
           <HeroCard heading="5+" description="Years of Experience" />
-          <HeroCard heading="8+" description="Projects Completed" />
+          <HeroCard heading="10+" description="Projects Completed" />
           <HeroCard heading="5+" description="Satisfied Clients" />
         </div>
       </div>
