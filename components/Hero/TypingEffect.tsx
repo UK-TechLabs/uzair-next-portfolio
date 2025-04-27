@@ -39,7 +39,7 @@ const TypingEffect = () => {
   }, [currentText, isDeleting, currentIndex, strings, speed]);
 
   return (
-    <div className="text-3xl font-bold mb-2">
+    <div className="text-2xl md:text-3xl font-bold mb-2">
       {currentText}
       <span className="border-r-2 border-gray-800 animate-blink ml-1"></span>
     </div>

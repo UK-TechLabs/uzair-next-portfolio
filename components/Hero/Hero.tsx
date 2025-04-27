@@ -22,10 +22,10 @@ export const Hero = () => {
           width={"w-42"}
         />
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 items-start md:space-x-8 py-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 items-start md:space-x-8 py-2 md:py-5">
         <div>
-          <p className="text-6xl font-bold mb-2">Hello,</p>
-          <p className="text-5xl font-semibold mb-4 text-primary">
+          <p className="text-4xl md:text-6xl font-bold mb-2">Hello,</p>
+          <p className="text-3xl md:text-5xl font-semibold mb-4 text-primary">
             I'm Muhammad Uzair;
           </p>
           <TypingEffect />
