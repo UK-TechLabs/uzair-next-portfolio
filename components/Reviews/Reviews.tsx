@@ -6,7 +6,7 @@ import Marquee from "react-fast-marquee";
 const Reviews = () => {
   return (
     <div id="reviews" className="mt-8 md:mt-32">
-      <h2 className="text-4xl mb-5 md:mb-10 font-bold text-center text-primary">
+      <h2 className="text-3xl md:text-4xl mb-5 md:mb-10 font-bold text-center text-primary">
         Reviews
       </h2>
       <div className="rounded-lg">

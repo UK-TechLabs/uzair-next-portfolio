@@ -11,7 +11,7 @@ import "react-vertical-timeline-component/style.min.css";
 const Experience: React.FC = () => {
   return (
     <div id="experience" className="mt-8 md:mt-32 overflow-hidden">
-      <h2 className="text-4xl mb-5 md:mb-10 font-bold text-center text-primary">
+      <h2 className="text-3xl md:text-4xl mb-5 md:mb-10 font-bold text-center text-primary">
         Experience
       </h2>
         <VerticalTimeline>

@@ -10,7 +10,7 @@ import {
 const SkillsAndTechStack = () => {
   return (
     <div id="stack" className="mt-8 md:mt-32">
-      <h2 className="text-4xl font-bold text-center text-primary">
+      <h2 className="text-3xl md:text-4xl font-bold text-center text-primary">
         Skills and Tech Stack
       </h2>
       <SkillsAndTechStackSection

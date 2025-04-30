@@ -44,9 +44,9 @@ export const Hero = () => {
           </p>
         </div>
         <div className="flex flex-col justify-start md:justify-end items-start md:items-end gap-4 py-5">
-          <HeroCard heading="5+" description="Years of Experience" />
+          <HeroCard heading="4+" description="Years of Experience" />
           <HeroCard heading="10+" description="Projects Completed" />
-          <HeroCard heading="5+" description="Satisfied Clients" />
+          <HeroCard heading="6+" description="Satisfied Clients" />
         </div>
       </div>
     </>

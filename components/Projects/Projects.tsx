@@ -42,7 +42,7 @@ const RevealOnScroll = ({ children }: RevealOnScrollProps) => {
 const Projects = () => {
   return (
     <div id="projects" className="mx-auto text-center mt-8 md:mt-32">
-      <h2 className="text-4xl mb-5 md:mb-10 font-bold text-center text-primary">
+      <h2 className="text-3xl md:text-4xl mb-5 md:mb-10 font-bold text-center text-primary">
         Projects
       </h2>
       <div className="grid grid-cols-1  md:grid-cols-2 gap-5">

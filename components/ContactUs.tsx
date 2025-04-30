@@ -1,8 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import { useForm, SubmitHandler } from "react-hook-form";
-import { BiLogoGmail } from "react-icons/bi";
-import { FaLocationArrow } from "react-icons/fa";
+import { BiLogoGmail, BiLogoLinkedin } from "react-icons/bi";
+import { FaGithub, FaLocationArrow } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import Button from "./common/Button";
 import Input from "./common/Input";
@@ -66,28 +66,50 @@ const ContactUs: React.FC = () => {
 
   return (
     <div id="contact" className="my-8 relative md:my-32">
-      <p className="text-4xl font-bold text-center text-green-700 mb-4">
+      <p className="text-3xl md:text-4xl font-bold text-center text-green-700 mb-4">
         Want to hire me?
       </p>
-      <p className="text-center text-xl mb-8">
+      <p className="text-center text-base md:text-xl mb-8">
         Feel free to reach out, and we can discuss your requirements.
       </p>
       <div className="flex flex-col lg:flex-row gap-8">
         <div className="lg:w-1/2 mb-8 lg:mb-0">
           <div className="flex justify-center items-center gap-x-2 p-4 rounded-lg card-shadow mb-8">
             <BiLogoGmail className="text-white h-5 w-5" />
-            <a href="mailto:dev.uzairkhan@gmail.com" className="text-xl">
+            <a href="mailto:dev.uzairkhan@gmail.com" className="text-base md:text-xl">
               dev.uzairkhan@gmail.com
+            </a>
+          </div>
+          <div className="flex justify-center items-center gap-x-2 p-4 rounded-lg card-shadow mb-8">
+            <FaGithub className="text-white h-5 w-5" />
+            <a
+              href="https://github.com/uzairkhan-12"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-base md:text-xl"
+            >
+              github.com/uzairkhan-12
+            </a>
+          </div>
+          <div className="flex justify-center items-center gap-x-2 p-4 rounded-lg card-shadow mb-8">
+            <BiLogoLinkedin className="text-white h-5 w-5" />
+            <a
+              href="https://www.linkedin.com/in/uzair-uk"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-base md:text-xl"
+            >
+              linkedin.com/in/uzair-uk
             </a>
           </div>
           <div className="flex flex-col lg:flex-row gap-8">
             <div className="flex gap-x-2 items-center flex-1 justify-center p-4 rounded-lg card-shadow">
               <FaLocationArrow className="h-5 w-5" />
-              <p className="text-xl flex align-center">Riyadh KSA🇸🇦</p>
+              <p className="text-base md:text-xl flex align-center">Riyadh KSA🇸🇦</p>
             </div>
             <div className="flex gap-x-2 items-center flex-1 justify-center p-4 rounded-lg card-shadow">
               <FiPhoneCall className="h-5 w-5" />
-              <a href="tel:+966502924895" className="text-xl flex align-center">
+              <a href="tel:+966502924895" className="text-base md:text-xl flex align-center">
                 +966 (50) 292 4895
               </a>
             </div>
