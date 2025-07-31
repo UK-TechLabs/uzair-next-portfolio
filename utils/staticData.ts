@@ -5,7 +5,7 @@ import threatdefence from "../public/threat_defence.png";
 import volt from "../public/volt.png";
 import scintillant_ventures from "../public/scintillant_ventures.png";
 import qubitx from "../public/qubitx.png";
-import jobborsa from "../public/JOBBORSA.png";
+import jobborsa from "../public/jobborsa.png";
 import nifas from '../public/nifas.png'
 
 export const clientSideSkills = [
