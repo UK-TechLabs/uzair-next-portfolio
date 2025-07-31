@@ -36,7 +36,7 @@ export const Hero = () => {
             Proficient in modern frontend and backend technologies, I excel at
             optimizing performance, security, and user experience while solving
             complex technical challenges. Passionate about continuous learning,
-            I am currently expanding my expertise in Laravel, PHP, DevOps
+            I am currently expanding my expertise in ASP .NET, Laravel, PHP, DevOps
             (CI/CD, Kubernetes, Jenkins), and cloud-native technologies to
             enhance automation and system resilience. Known for meticulous
             problem-solving and a results-driven approach, I thrive in

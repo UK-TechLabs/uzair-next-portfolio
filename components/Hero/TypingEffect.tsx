@@ -5,6 +5,8 @@ const TypingEffect = () => {
   const strings = [
     "Full Stack Developer!",
     "Next.js Developer!",
+    "Laravel Developer!",
+    "ASP .NET Developer!",
     "MERN Stack Developer!",
     "MEAN Stack Developer!",
   ];
