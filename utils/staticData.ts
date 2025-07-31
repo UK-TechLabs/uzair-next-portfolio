@@ -5,6 +5,8 @@ import threatdefence from "../public/threat_defence.png";
 import volt from "../public/volt.png";
 import scintillant_ventures from "../public/scintillant_ventures.png";
 import qubitx from "../public/qubitx.png";
+import jobborsa from "../public/JOBBORSA.png";
+import nifas from '../public/nifas.png'
 
 export const clientSideSkills = [
   { name: "Javascript", value: 4, icon: "javascript-plain" },
@@ -27,6 +29,8 @@ export const clientSideSkills = [
 export const serverSideSkills = [
   { name: "Node.js", value: 4, icon: "nodejs-plain" },
   { name: "Express.js", value: 4, icon: "express-original" },
+  { name: "ASP .NET", value: 4, icon: "dot-net-plain-wordmark" },
+  { name: "Laravel", value: 4, icon: "laravel-original-wordmark" },
   { name: "Prisma", value: 4, icon: "prisma-original" },
   { name: "Mongoose", value: 4, icon: "mongoose-original" },
   { name: "Strapi", value: 4, icon: "strapi-plain" },
@@ -57,7 +61,14 @@ const workIcon = {
 export const timeline = [
   {
     icon: workIcon,
-    date: "Jan 2025 - Present",
+    date: "May 2025 - Present",
+    title: "Senior Full Stack Developer",
+    subtitle: "Nifas Medical Sevices",
+    desc: "At Nifas, I worked as a Full Stack Developer on a multi-vendor marketplace and Health care web and mobile app, using ASP.NET, Laravel, PHP, Bagisto, NopCommerce, Flutter, MySQL, and SQL. I developed key features for both the web platform and the doctor appointment mobile app built with Flutter. I am also focusing on scalable architecture, cloud integration with AWS, and responsive UI/UX. I used Docker for streamlined deployments.",
+  },
+  {
+    icon: workIcon,
+    date: "Jan 2025 - May 2025",
     title: "Senior Full Stack Developer",
     subtitle: "ABTech Swabi, PAK (Remote)",
     desc: "At ABTech Software Solutions, I contributed as a Full Stack Developer, working primarily with Next.js, Node.js, Express.js, MongoDB, AWS, and Docker. I played a key role in developing PlanLog, a care service platform aimed at improving elderly care management, and Renzicom, a magazine management system for hotel stock and delivery logistics. My focus was on building scalable, high-performance web applications, integrating cloud services, ensuring data security, and optimizing user experiences through intuitive and responsive designs.",
@@ -132,19 +143,40 @@ export const projectData = [
     image: threatdefence,
     url: "https://threatdefence.com/",
   },
-  { id: 3, name: "Deep Lawn", image: deeplawn, url: "https://deeplawn.com/" },
+  { id: 3, 
+    name: "Deep Lawn", 
+    image: deeplawn, 
+    url: "https://deeplawn.com/" },
   {
     id: 4,
     name: "Service Cart",
     image: servicecart,
     url: "https://servicecart.io/",
   },
-  { id: 6, name: "Volt", image: volt, url: "https://volt-mu.vercel.app/" },
+  { id: 6, 
+    name: "Volt", 
+    image: volt, 
+    url: "https://volt-mu.vercel.app/" 
+  },
   {
     id: 7,
     name: "Scintillant Ventures",
     image: scintillant_ventures,
     url: "https://www.scintillantventures.com/",
   },
-  { id: 8, name: "Qubit", image: qubitx, url: "https://qubitx.io/" },
+  { id: 8, 
+    name: "Qubit", 
+    image: qubitx, 
+    url: "https://qubitx.io/" 
+  },
+  { id: 9, 
+    name: "Job borsa", 
+    image: jobborsa, 
+    url: "http://www.jobborsa.com/" 
+  },
+  { id: 10, 
+    name: "Nifas", 
+    image: nifas, 
+    url: "https://market.nifas.net/en/" 
+  },
 ];
