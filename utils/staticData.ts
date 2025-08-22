@@ -131,52 +131,52 @@ export const reviews = [
 ];
 
 export const projectData = [
+    { id: 1, 
+    name: "Job borsa", 
+    image: jobborsa, 
+    url: "http://www.jobborsa.com/" 
+  },
+  { id: 2, 
+    name: "Nifas", 
+    image: nifas, 
+    url: "https://market.nifas.net/en/" 
+  },
   {
-    id: 1,
+    id: 3,
     name: "Rockdale Wreaths",
     image: rockdaleReaths,
     url: "https://www.rockdalewreaths.com/",
   },
   {
-    id: 2,
+    id: 4,
     name: "Threat Defence",
     image: threatdefence,
     url: "https://threatdefence.com/",
   },
-  { id: 3, 
+  { id: 5, 
     name: "Deep Lawn", 
     image: deeplawn, 
     url: "https://deeplawn.com/" },
   {
-    id: 4,
+    id: 6,
     name: "Service Cart",
     image: servicecart,
     url: "https://servicecart.io/",
   },
-  { id: 6, 
+  { id: 7, 
     name: "Volt", 
     image: volt, 
     url: "https://volt-mu.vercel.app/" 
   },
   {
-    id: 7,
+    id: 8,
     name: "Scintillant Ventures",
     image: scintillant_ventures,
     url: "https://www.scintillantventures.com/",
   },
-  { id: 8, 
+  { id: 9, 
     name: "Qubit", 
     image: qubitx, 
     url: "https://qubitx.io/" 
-  },
-  { id: 9, 
-    name: "Job borsa", 
-    image: jobborsa, 
-    url: "http://www.jobborsa.com/" 
-  },
-  { id: 10, 
-    name: "Nifas", 
-    image: nifas, 
-    url: "https://market.nifas.net/en/" 
-  },
+  }
 ];
