@@ -105,7 +105,7 @@ const ContactUs: React.FC = () => {
           <div className="flex flex-col lg:flex-row gap-8">
             <div className="flex gap-x-2 items-center flex-1 justify-center p-4 rounded-lg card-shadow">
               <FaLocationArrow className="h-5 w-5" />
-              <p className="text-base md:text-xl flex align-center">Riyadh KSA🇸🇦</p>
+              <p className="text-base md:text-xl flex align-center">Riyadh KSA</p>
             </div>
             <div className="flex gap-x-2 items-center flex-1 justify-center p-4 rounded-lg card-shadow">
               <FiPhoneCall className="h-5 w-5" />
