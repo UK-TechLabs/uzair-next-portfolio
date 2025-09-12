@@ -61,21 +61,14 @@ const workIcon = {
 export const timeline = [
   {
     icon: workIcon,
-    date: "May 2025 - Present",
+    date: "Feb 2025 - Present",
     title: "Senior Full Stack Developer",
     subtitle: "Nifas Medical Sevices",
     desc: "At Nifas, I worked as a Full Stack Developer on a multi-vendor marketplace and Health care web and mobile app, using ASP.NET, Laravel, PHP, Bagisto, NopCommerce, Flutter, MySQL, and SQL. I developed key features for both the web platform and the doctor appointment mobile app built with Flutter. I am also focusing on scalable architecture, cloud integration with AWS, and responsive UI/UX. I used Docker for streamlined deployments.",
   },
   {
     icon: workIcon,
-    date: "Jan 2025 - May 2025",
-    title: "Senior Full Stack Developer",
-    subtitle: "ABTech Swabi, PAK (Remote)",
-    desc: "At ABTech Software Solutions, I contributed as a Full Stack Developer, working primarily with Next.js, Node.js, Express.js, MongoDB, AWS, and Docker. I played a key role in developing PlanLog, a care service platform aimed at improving elderly care management, and Renzicom, a magazine management system for hotel stock and delivery logistics. My focus was on building scalable, high-performance web applications, integrating cloud services, ensuring data security, and optimizing user experiences through intuitive and responsive designs.",
-  },
-  {
-    icon: workIcon,
-    date: "Nov 2023 - Jan 2025",
+    date: "Nov 2023 - Feb 2025",
     title: "Senior Software Engineer",
     subtitle: "Gubloo Tech Islamabad, PAK",
     desc: "Leading the development of innovative software solutions using modern technologies. Overseeing project planning, system architecture, and team collaboration to deliver high-quality web applications. Specializing in full-stack development, code optimization, and ensuring efficient project delivery within deadlines.",
@@ -89,7 +82,7 @@ export const timeline = [
   },
   {
     icon: workIcon,
-    date: "Sep 2022 - Dec 2022",
+    date: "Jul 2022 - Dec 2022",
     title: "Junior Angular Developer",
     subtitle: "Softosol Islamabad, PAK",
     desc: "Contributed to the development of web applications using AngularJS. Collaborated on building interactive user interfaces, integrating API endpoints, and enhancing client-side data processing. Gained hands-on experience with Angular Material and NgBootstrap for building modern, responsive front-end solutions.",

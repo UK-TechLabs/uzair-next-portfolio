@@ -76,8 +76,8 @@ const ContactUs: React.FC = () => {
         <div className="lg:w-1/2 mb-8 lg:mb-0">
           <div className="flex justify-center items-center gap-x-2 p-4 rounded-lg card-shadow mb-8">
             <BiLogoGmail className="text-white h-5 w-5" />
-            <a href="mailto:dev.uzairkhan@gmail.com" className="text-base md:text-xl">
-              dev.uzairkhan@gmail.com
+            <a href="mailto:eng.uzairkhann@gmail.com" className="text-base md:text-xl">
+              eng.uzairkhann@gmail.com
             </a>
           </div>
           <div className="flex justify-center items-center gap-x-2 p-4 rounded-lg card-shadow mb-8">
